@@ -226,7 +226,7 @@ class _CustomBottomClipperState extends State<CustomBottomClipper> {
             bottom: 8.0,
             right: 0.0,
             left: 0.0,
-            child: Center(child: Text("©2021 norbertaberor",
+            child: Center(child: Text("©${DateTime.now().year} norbertaberor",
             style: TextStyle(
               color: Theme.of(context).canvasColor,
               fontWeight: FontWeight.w500,
