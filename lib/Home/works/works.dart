@@ -143,16 +143,16 @@ class _WorksState extends State<Works> {
                           ),
                         ),
 
-                        Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 20.0,),
-                          child: Container(
-                            height: 4.0,
-                            decoration: BoxDecoration(
-                              color: defaultColor,
-                              borderRadius: BorderRadius.circular(5.0),
-                            ),
-                          ),
-                        ),
+                        // Padding(
+                        //   padding: EdgeInsets.symmetric(horizontal: 20.0,),
+                        //   child: Container(
+                        //     height: 4.0,
+                        //     decoration: BoxDecoration(
+                        //       color: defaultColor,
+                        //       borderRadius: BorderRadius.circular(5.0),
+                        //     ),
+                        //   ),
+                        // ),
 
 
                         Container(
