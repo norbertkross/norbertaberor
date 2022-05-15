@@ -29,26 +29,28 @@ class _BodyState extends State<Body> {
       return false;
       },
       child:
-      ListView(
-        children: [
-          HomeCarousel(
-            isBright: (themeMode){
-                widget.myThemeMode?.call(themeMode);
-            },
-          ),
-          
-
-          SizedBox(height: 200.0,),
-          AboutNorbertAberor(),
-          SizedBox(height: 60.0,),
-          Works(),
-          SizedBox(height: 60.0,),
-          TechStack(),  
-          SizedBox(height: 60.0,),
-          UIChallenges(), 
-          CustomBottomClipper(),  
+      SingleChildScrollView(
+        child: Column(
+          children: [
+            HomeCarousel(
+              isBright: (themeMode){
+                  widget.myThemeMode?.call(themeMode);
+              },
+            ),
             
-        ],
+
+            SizedBox(height: 200.0,),
+            AboutNorbertAberor(),
+            SizedBox(height: 60.0,),
+            Works(),
+            SizedBox(height: 60.0,),
+            TechStack(),  
+            SizedBox(height: 60.0,),
+            UIChallenges(), 
+            CustomBottomClipper(),  
+              
+          ],
+        ),
       ),
       ),
     );
